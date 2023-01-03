@@ -204,6 +204,9 @@ else
 endif
 "}}}
 
+" Don't try to change the terminal background
+let s:term_back = "NONE"
+
 " Alternate light scheme "{{{
 " ---------------------------------------------------------------------
 if &background == "light"
